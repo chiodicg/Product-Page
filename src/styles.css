@@ -10,14 +10,15 @@
   right: 0;
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 h1 {
   color: #01529b;
   display: block;
+  font-size: 32px;
   float: left;
-  height: 90%;
-  width: 300px;
+  width: 400px;
 }
 
 header {
@@ -34,12 +35,20 @@ ul {
   margin: 30px auto;
   padding-inline-end: 40px;
 }
-.nav-link {
+.nav-pages {
   display: inline-block;
+  font-size: 18px;
   list-style-type: none;
   padding-left: 20px;
   vertical-align: middle;
 }
+
+.nav-link {
+  color: #01529b;
+  display: inline-block;
+  text-decoration: none;
+}
+
 #header-img {
   width: 150px;
   display: block;
@@ -49,4 +58,23 @@ ul {
 
 #description {
   text-align: center;
+}
+
+#home h2,
+#home h3 {
+  text-align: center;
+}
+
+#docking {
+  display: block;
+  margin: 0 auto;
+}
+
+#home {
+  display: block;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
 }
