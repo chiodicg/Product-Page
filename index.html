@@ -24,10 +24,44 @@
         <section id="home">
             <h2>Welcome to our docking server!</h2>
             <h3>A free web server for protein-ligand docking</h3>
-            <img id="docking" src="https://kuhnlab.natsci.msu.edu/img/siteinterlock_small.png" alt="docking-img">
+            <div class="media">
+                <img id="docking" src="https://kuhnlab.natsci.msu.edu/img/siteinterlock_small.png" alt="docking-img">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TTtrk0Ue-Cg" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
         </section>
-        <section id="dock"></section>
-        <section id="references"></section>
+        <section id="dock">
+            <h2>Docking Server</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <div class="form-items">
+                    <label for="file"><strong>Choose your protein file</strong></label>
+                    <input type="file" name="protein" id="protein" accept=".pdb, .mol2">
+                    <p>Accepted formats: PDB and MOL2</p>
+                </div>
+                <div class="form-items">
+                    <label for="file"><strong>Choose your ligand file</strong></label>
+                    <input type="file" name="ligand" id="ligand" accept=".pdb, .sdf, .mol2">
+                    <p>Accepted formats: PDB, SDF and MOL2</p>
+                </div>
+                <div class="form-items">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <input type="submit" value="Dock" id="submit">
+                </div>
+            </form>
+        </section>
+        <section id="references">
+            <h2>References</h2>
+            <ol>
+                <li><strong>Docking Challenge: Protein Sampling and Molecular Docking Performance</strong>
+                <p class="refs">Elokely K.M. and Doerksen R.J., Journal of Chemical Information and Modeling (2013) 53, 1934-1945, DOI: 10.1021/ci400040d</p></li>
+                <li><strong>Molecular Docking</strong>
+                    <p class="refs">Schleinkofer K., Wang T. and Wade R.C., In: Encyclopedic Reference of Genomics and Proteomics in Molecular Medicine. Springer, Berlin, Heidelberg (2006), DOI: 10.1007/3-540-29623-9_3820</p></li>
+                <li><strong>Molecular docking: a powerful approach for structure-based drug discovery</strong>
+                    <p class="refs">Meng X.-Y. <em>et al.</em>, Current computer-aided drug design (2011) 7, 146-157, DOI: 10.2174/157340911795677602</p></li>
+            </ol>
+        </section>
     </div>
 </body>
 
