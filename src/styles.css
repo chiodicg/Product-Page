@@ -1,0 +1,52 @@
+.container::after {
+  content: "";
+  background-image: url(https://rosie.graylab.jhu.edu/images/ligand_docking_icon.png);
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0.15;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+h1 {
+  color: #01529b;
+  display: block;
+  float: left;
+  height: 90%;
+  width: 300px;
+}
+
+header {
+  background: #f6f6f6;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+}
+
+ul {
+  display: block;
+  font-weight: bold;
+  float: right;
+  margin: 30px auto;
+  padding-inline-end: 40px;
+}
+.nav-link {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+#header-img {
+  width: 150px;
+  display: block;
+  float: left;
+  height: 90%;
+}
+
+#description {
+  text-align: center;
+}
